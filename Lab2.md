@@ -88,7 +88,7 @@ baseObject = {
     width:0,
     length:0
 }
-let rectangle: typeof baseObject;
+let rectangle: any;
 
 rectangle = Object.create(baseObject);
 
