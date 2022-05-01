@@ -1,6 +1,10 @@
 # Lab4 - Design Pattern 2
 
 ## Exercise 01
+Implement Factory Method pattern to create two types of light bulbs: regular bulbs and energy saver bulbs.
+    - Regular bulbs have a range of lumens between 50 and 100 and last for 1 year.
+    - Energy saver bulbs have a range of lumens between 5 and 40 and last for 10 years and comes in multiple colors.
+
 ```javascript
 class RegularBulbs{
     constructor(){
@@ -47,6 +51,7 @@ for (let i = 0, len = bulbs.length; i < len; i++) {
 }
 ```
 ## Exercise 02
+Implement Decorator pattern to add a logger to any object (additional class is needed). A logger method will log a message to the console. 
 ```javascript
 class User{
     constructor(name){
@@ -72,6 +77,14 @@ const decorated = new DecoratedUser(user, "Broadway", "New York");
 decorated.logger();
 ```
 ## Exercise 03
+Implement Strategy pattern to choose between different logging algorithms, choosing between:
+
+console.info()
+console.warn()
+console.error()
+console.table() accepts an array of objects
+
+
 ```javascript
 class Info{
     logging(element){console.log(element)}
@@ -115,6 +128,8 @@ strategy.setStrategy(new Table());
 strategy.logging(['table', 'table']);
 ```
 ## Exercise 04
+Create a memoized version of the following fibonacci() recursive method to improve its performance.
+
 ```javascript
 let fibonacci = (function(){
     let memo = {};
@@ -142,7 +157,7 @@ console.timeEnd(fibonacci(50))  // 20365011074: 0.126ms
 
  
 
-
+// fibonacci() recursive method
 
 function fibonacci2(n) {
     if (n <= 1) {
