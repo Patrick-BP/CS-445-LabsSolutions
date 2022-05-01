@@ -1,6 +1,6 @@
-#Lab4 - Design Pattern 2
+# Lab4 - Design Pattern 2
 
-##Exercise 01
+## Exercise 01
 ```javascript
 class RegularBulbs{
     constructor(){
@@ -46,7 +46,7 @@ for (let i = 0, len = bulbs.length; i < len; i++) {
     console.log(bulbs[i]);
 }
 ```
-##Exercise 02
+## Exercise 02
 ```javascript
 class User{
     constructor(name){
@@ -71,7 +71,7 @@ const user = new User("Kelly");
 const decorated = new DecoratedUser(user, "Broadway", "New York");
 decorated.logger();
 ```
-##Exercise 03
+## Exercise 03
 ```javascript
 class Info{
     logging(element){console.log(element)}
@@ -114,15 +114,15 @@ strategy.logging('error....');
 strategy.setStrategy(new Table());
 strategy.logging(['table', 'table']);
 ```
-##Exercise 04
+## Exercise 04
 ```javascript
 let fibonacci = (function(){
     let memo = {};
 
-    function func(num){// 5
+    function func(num){
         let value;
-        if(num in memo){ // if true
-            value = memo[num]; // value = 8
+        if(num in memo){ 
+            value = memo[num]; 
         }else{
             if(num === 0 || num === 1){
                 value = 1;
