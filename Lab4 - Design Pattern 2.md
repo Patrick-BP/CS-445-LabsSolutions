@@ -138,22 +138,21 @@ return func;
 
 
 console.time(fibonacci(50))
-console.timeEnd(fibonacci(50))
+console.timeEnd(fibonacci(50))  // 20365011074: 0.126ms
 
-// 20365011074: 0.126ms
+ 
 
 
 
 function fibonacci2(n) {
     if (n <= 1) {
-        return n;
+        return 1;
     }
     return fibonacci2(n - 1) + fibonacci2(n - 2);
 }
 
-
 console.time(fibonacci2(50))
-console.timeEnd(fibonacci2(50))
+console.timeEnd(fibonacci2(50))  // 20365011074: 3:02.244 (m:ss.mmm)
 
-// 12586269025: 3:02.244 (m:ss.mmm)
+
 ```
