@@ -87,16 +87,16 @@ console.table() accepts an array of objects
 
 ```javascript
 class Info{
-    logging(element){console.log(element)}
+    logging(element){console.info(element)}
 }
 class Warn{
-    logging(element){console.log(element)}
+    logging(element){console.warn(element)}
 }
 class Error{
-    logging(element){console.log(element)}
+    logging(element){console.error(element)}
 }
 class Table{
-    logging(element){ console.log(element)}
+    logging(element){ console.table(element)}
 }
 
 
