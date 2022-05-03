@@ -101,7 +101,7 @@ class Table{
 
 
 class Strategy{
-    event = "";
+
     setStrategy(event){
         this.event = event
     }
