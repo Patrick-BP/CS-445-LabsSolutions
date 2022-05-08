@@ -1,6 +1,7 @@
 # Lab6 - JS DOM
 
-## Exercise 01
+## Exercise 01   HTML Page: https://patrick-bp.github.io/CS445/Lab6/calculator.html
+
 - Create a swap.html page which has 2 pictures and 1 button on it.
 - You can use any picture you want.
 - The button is named Swap.
@@ -27,9 +28,6 @@
     
     
 </div>
-    
-    
-
     
     <script src="script.js"></script>
 </body>
@@ -62,7 +60,7 @@ let x = img1.innerHTML;
 ```
 
 
-# Exercise 02
+# Exercise 02  HTML Page: https://patrick-bp.github.io/CS445/Lab6/swap.html
 
 - Create a simple calculator.html page which has 3 inputs and 1 submit on it.
 - The first 2 inputs are only allowed to put numbers.
