@@ -3,8 +3,8 @@
 ## Exercise 01
 Change isPrime function below that takes in a single number parameter and returns a new promise.
 Using setTimeout and after 500 milliseconds, the promise will either resolove or reject.
-if the input is prime number, the promise resolves with {prime: true}.
-if the input is not a prime number, it rejects with {prime: false}.
+- if the input is prime number, the promise resolves with {prime: true}.
+- if the input is not a prime number, it rejects with {prime: false}.
 
 
 
