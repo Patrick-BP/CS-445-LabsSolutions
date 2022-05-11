@@ -7,7 +7,7 @@ Based on the isPrime function below which is the solution of yesterday's solutio
 async function helper(num) {
     for (let i = 2; i <= Math.sqrt(num); i++) {
         if (num % i === 0) 
-            throw new Error('nooo')
+            throw new Error('oops')
     }
 return { prime: true };
 }
