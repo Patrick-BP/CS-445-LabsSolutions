@@ -41,7 +41,7 @@ The below is an example of the appearance of the html page. You don't need to ha
 
 ## javascript
 
-```javascipt
+```javascript
 "use strict";
 /* eslint-disable */
 window.onload = function(){
